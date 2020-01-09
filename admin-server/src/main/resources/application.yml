@@ -1,0 +1,26 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /admin-server
+
+spring:
+  mail:
+    host: smtp.qq.com
+    port: -1 # SMTP服务器端口号 默认-1
+    username: 1363653611@qq.com
+    password: yohkywkznmjigjaj # 发送方密码（授权码）
+    properties:
+      mail:
+        smtp:
+          auth: true
+#          starttls:
+#            enable: true
+#            required: true
+
+  boot:
+    admin:
+      notify:
+        mail:
+          from: 1363653611@qq.com
+          to: zbcn810@163.com
+

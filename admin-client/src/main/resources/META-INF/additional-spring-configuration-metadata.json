@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "spring.boot.admin.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.boot.admin.url."
+    },
+    {
+      "name": "management.security",
+      "type": "java.lang.String",
+      "description": "Description for management.security."
+    }
+  ] }
