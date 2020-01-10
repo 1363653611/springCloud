@@ -28,13 +28,21 @@
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-server</artifactId>
         </dependency>
-        <dependency>
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-server-ui</artifactId>
-        </dependency>
+        <!--邮件服务-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+        <!--整合安全机制-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <!-- 加入模版引擎 freemarker: 支持mail服务 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
 
         <dependency>

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springCloud" />
         <module name="eureka_consumer" />
+        <module name="common" />
         <module name="admin-server" />
         <module name="admin-client" />
         <module name="feign_hystrix" />
@@ -18,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="admin-client" target="1.8" />
       <module name="admin-server" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="eureka_consumer" target="1.8" />
       <module name="eureka_producer" target="1.8" />
       <module name="eureka_server" target="1.8" />

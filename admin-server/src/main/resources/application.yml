@@ -4,23 +4,41 @@ server:
     context-path: /admin-server
 
 spring:
+  security:
+    user:
+      name: admin
+      password: 123456
   mail:
     host: smtp.qq.com
-    port: -1 # SMTP�������˿ں� Ĭ��-1
+    port: -1 # SMTP服务器端口号 默认-1
     username: 1363653611@qq.com
-    password: yohkywkznmjigjaj # ���ͷ����루��Ȩ�룩
+    password: yohkywkznmjigjaj # 发送方密码（授权码）
+    to:  zbcn810@163.com
+    cc: zbcn810@163.com
     properties:
       mail:
         smtp:
           auth: true
-#          starttls:
-#            enable: true
-#            required: true
+  reemarker:
+    # 缓存配置 开发阶段应该配置为false 因为经常会改
+    cache: false
+    # 模版后缀名 默认为ftl
+    suffix: .ftl
+    # 文件编码
+    charset: UTF-8
+    # 模版加载的目录
+    template-loader-path: classpath:/templates/
 
   boot:
     admin:
+      monitor:
+        default-timeout: 200000
       notify:
         mail:
+          enabled: false #关闭自带的邮件服务
           from: 1363653611@qq.com
           to: zbcn810@163.com
+
+      ui:
+        title: '监控服务'
 

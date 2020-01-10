@@ -4,7 +4,28 @@
     <option name="showFiles" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60493a3f-0b3d-4dd2-8a67-d001ffc92b08" name="Default Changelist" comment="" />
+    <list default="true" id="60493a3f-0b3d-4dd2-8a67-d001ffc92b08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin-client/src/main/java/com/zbcn/adminclient/common/MyPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-client/src/main/java/com/zbcn/adminclient/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-client/src/main/java/com/zbcn/adminclient/config/SecurityPermitAllConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/config/monitorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/mail/CustomMailNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/mail/SendEmailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/src/main/resources/templates/updatePsw.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/AdminServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/AdminServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +88,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540535716619" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaBase/common/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5735632" />
@@ -221,7 +243,7 @@
       <workItem from="1540471564424" duration="9229000" />
       <workItem from="1540520840815" duration="12463000" />
       <workItem from="1578536034193" duration="1446000" />
-      <workItem from="1578537552587" duration="5880000" />
+      <workItem from="1578537552587" duration="47601000" />
     </task>
     <task id="LOCAL-00001" summary="spring-cloud 添加监控服务">
       <created>1578549340568</created>
@@ -251,7 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578549500154</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="spring-cloud 删除无用的引入">
+      <created>1578549642890</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578549642890</updated>
+    </task>
+    <task id="LOCAL-00006" summary="spring-cloud readme 修改。">
+      <created>1578549985177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578549985177</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +309,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring-cloud 添加监控服务" />
     <MESSAGE value="spring-cloud 删除无用的引入" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-cloud 删除无用的引入" />
+    <MESSAGE value="spring-cloud readme 修改。" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-cloud readme 修改。" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/mail/CustomMailNotifier.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

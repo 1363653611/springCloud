@@ -3,11 +3,24 @@ info:
     name: "@project.name@"
     description: "@project.description@"
     version: "@project.version@"
-    spring-boot-version: "@project.parent.version@"
 
 management:
-  security:
-    enabled: false
+  health:
+    mail:
+      enabled: true # 监控邮件服务器状态
+  endpoint:
+    health:
+      show-details: always
+  #  security:
+#    enabled: false  # 2.0 已经废弃
+  endpoints:
+    jmx:
+      exposure:
+        include: '*'
+    web:
+      exposure:
+        include: '*' #在 Spring Boot 2.x 中为了安全期间，Actuator 只开放了两个端点 /actuator/health 和 /actuator/info。可以在配置文件中设置打开
+
 
 
 server:
@@ -17,4 +30,22 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:8080/admin-server
+        url: http://localhost:8080/admin-server #监控-服务器地址
+#        #client可以连接到monitor server端的凭证
+        username: admin
+        password: 123456
+#        read-timeout: 10000  #读取超时时间
+        instance:
+          # service-base-url: http://127.0.0.1:8080  #自定义节点的ip地址
+          prefer-ip: true  #是否显示真实的ip地址
+#       #元数据，用于配置monitor server访问client端的凭证（Provide username and password for Spring Boot Admin Server To connect to the client）
+          metadata:
+            user.name: ${spring.security.user.name} #客户端元数据访问用户
+            user.password: ${spring.security.user.password} #客户端元数据访问密码
+
+
+  security:
+    user:
+      name: user #客户端用户名
+      password: 123456 # 客户端密码
+      roles: ACTUATOR_ADMIN #拥有角色，用于允许自身访问
