@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/admin-client/admin-client.iml" filepath="$PROJECT_DIR$/admin-client/admin-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-admin/admin-client/admin-client.iml" filepath="$PROJECT_DIR$/boot-admin/admin-client/admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-admin/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/boot-admin/admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-admin/boot-admin.iml" filepath="$PROJECT_DIR$/boot-admin/boot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-eureka/boot-eureka.iml" filepath="$PROJECT_DIR$/boot-eureka/boot-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JavaBase/common/common.iml" filepath="$PROJECT_DIR$/../JavaBase/common/common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka_consumer/eureka_consumer.iml" filepath="$PROJECT_DIR$/eureka_consumer/eureka_consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka_producer/eureka_producer.iml" filepath="$PROJECT_DIR$/eureka_producer/eureka_producer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-eureka/eureka_consumer/eureka_consumer.iml" filepath="$PROJECT_DIR$/boot-eureka/eureka_consumer/eureka_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-eureka/eureka_producer/eureka_producer.iml" filepath="$PROJECT_DIR$/boot-eureka/eureka_producer/eureka_producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-eureka/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/boot-eureka/eureka_server/eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign_hystrix/feign_hystrix.iml" filepath="$PROJECT_DIR$/feign_hystrix/feign_hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/springCloud.iml" filepath="$PROJECT_DIR$/springCloud.iml" />
     </modules>

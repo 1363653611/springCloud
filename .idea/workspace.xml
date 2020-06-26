@@ -5,26 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60493a3f-0b3d-4dd2-8a67-d001ffc92b08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin-client/src/main/java/com/zbcn/adminclient/common/MyPasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-client/src/main/java/com/zbcn/adminclient/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-client/src/main/java/com/zbcn/adminclient/config/SecurityPermitAllConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/config/monitorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/mail/CustomMailNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/mail/SendEmailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-server/src/main/resources/templates/updatePsw.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-server/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/AdminServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/AdminServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/src/main/java/com/zbcn/adminclient/AdminClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/src/main/java/com/zbcn/adminclient/AdminClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/src/main/java/com/zbcn/adminclient/common/MyPasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/src/main/java/com/zbcn/adminclient/common/MyPasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/src/main/java/com/zbcn/adminclient/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/src/main/java/com/zbcn/adminclient/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/src/main/java/com/zbcn/adminclient/config/SecurityPermitAllConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/src/main/java/com/zbcn/adminclient/config/SecurityPermitAllConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-client/src/test/java/com/zbcn/adminclient/AdminClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-client/src/test/java/com/zbcn/adminclient/AdminClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/AdminServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/src/main/java/com/zbcn/adminserver/AdminServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/src/main/java/com/zbcn/adminserver/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/config/monitorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/src/main/java/com/zbcn/adminserver/config/monitorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/mail/CustomMailNotifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/src/main/java/com/zbcn/adminserver/mail/CustomMailNotifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/mail/SendEmailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/src/main/java/com/zbcn/adminserver/mail/SendEmailUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/templates/updatePsw.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/src/main/resources/templates/updatePsw.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/test/java/com/zbcn/adminserver/AdminServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-admin/admin-server/src/test/java/com/zbcn/adminserver/AdminServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/doc/踩坑呀.md" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/doc/踩坑呀.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/src/main/java/com/zbcn/eureka_consumer/EurekaConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/src/main/java/com/zbcn/eureka_consumer/EurekaConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/src/main/java/com/zbcn/eureka_consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/src/main/java/com/zbcn/eureka_consumer/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/src/main/java/com/zbcn/eureka_consumer/feign/HelloRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/src/main/java/com/zbcn/eureka_consumer/feign/HelloRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/src/main/java/com/zbcn/eureka_consumer/hystrix/HelloRemoteHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/src/main/java/com/zbcn/eureka_consumer/hystrix/HelloRemoteHystrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_consumer/src/test/java/com/zbcn/eureka_consumer/EurekaConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_consumer/src/test/java/com/zbcn/eureka_consumer/EurekaConsumerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_producer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_producer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_producer/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_producer/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_producer/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_producer/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_producer/src/main/java/com/zbcn/eureka_producer/EurekaProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_producer/src/main/java/com/zbcn/eureka_producer/EurekaProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_producer/src/main/java/com/zbcn/eureka_producer/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_producer/src/main/java/com/zbcn/eureka_producer/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_producer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_producer/src/test/java/com/zbcn/eureka_producer/EurekaProducerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_producer/src/test/java/com/zbcn/eureka_producer/EurekaProducerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/java/com/example/eureka_server/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_server/src/main/java/com/example/eureka_server/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/src/test/java/com/example/eureka_server/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-eureka/eureka_server/src/test/java/com/example/eureka_server/EurekaServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,13 +134,18 @@
     <property name="project.structure.side.proportion" value="0.5735632" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\zbcn\spring_cloud\eureka_client\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\baseCode\springCloud\admin-server" />
       <recent name="E:\zbcn\spring_cloud\feign_hystrix\src\main\java\com\zbcn\feign_hystrix" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\baseCode\springCloud\boot-eureka" />
+      <recent name="D:\baseCode\springCloud\boot-admin" />
+      <recent name="E:\zbcn\spring_cloud\eureka_client\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,56 +160,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminClientApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaProducerApplication">
     <configuration name="AdminServerApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/AdminServerApplication.http">
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="springCloud" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="springCloud" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="AdminClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="admin-client" />
@@ -215,13 +210,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.AdminServerApplication#1" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.EurekaProducerApplication" />
       <item itemvalue="Spring Boot.EurekaConsumerApplication" />
       <item itemvalue="Spring Boot.FeignHystrixApplication" />
       <item itemvalue="Spring Boot.AdminClientApplication" />
       <item itemvalue="Spring Boot.AdminServerApplication" />
-      <item itemvalue="HTTP Request.AdminServerApplication#1" />
     </list>
     <recent_temporary>
       <list>
@@ -243,7 +238,12 @@
       <workItem from="1540471564424" duration="9229000" />
       <workItem from="1540520840815" duration="12463000" />
       <workItem from="1578536034193" duration="1446000" />
-      <workItem from="1578537552587" duration="47601000" />
+      <workItem from="1578537552587" duration="47703000" />
+      <workItem from="1578656827264" duration="648000" />
+      <workItem from="1581257989118" duration="187000" />
+      <workItem from="1581741960322" duration="50000" />
+      <workItem from="1585876822647" duration="133000" />
+      <workItem from="1593140930442" duration="1574000" />
     </task>
     <task id="LOCAL-00001" summary="spring-cloud 添加监控服务">
       <created>1578549340568</created>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578549985177</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="spring-cloud readme 修改。">
+      <created>1578656719890</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578656719890</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +323,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/admin-server/src/main/java/com/zbcn/adminserver/mail/CustomMailNotifier.java</url>
+          <url>file://$PROJECT_DIR$/boot-admin/admin-server/src/main/java/com/zbcn/adminserver/mail/CustomMailNotifier.java</url>
           <line>61</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>

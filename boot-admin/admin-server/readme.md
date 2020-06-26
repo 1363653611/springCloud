@@ -219,5 +219,6 @@ config-attributes:
 - [Spring Boot Admin Tutorial] https://www.vojtechruzicka.com/spring-boot-admin/ 
 
 - [SpringBoot2.x整合监控（2-SpringBoot Admin] https://www.jianshu.com/p/21c32276b2d3
+- [SpringBoot2.x整合SMTP邮件服务] https://www.jianshu.com/p/d66c085da723
  
  
